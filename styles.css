@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0
+}
+
+body {
+  font-family: "Red Hat Display";
+  background-color: #e0e8ff;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100vw;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #1f2f56;
+}
+
+h2 {
+  color: #1f2f56;
+}
+
+p {
+  color: #7280a7;
+  font-size: 16px;
+}
+
+.card {
+  width: 450px;
+  background-color: #fff;
+  margin: 5% auto;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+
+.container-1 {
+  padding: 50px;
+}
+
+.content {
+  padding: 25px;
+}
+
+.container-2 {
+  background-color: #f5f7ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.music {
+  padding: 25px;
+}
+
+.plan {
+  color: #1f2f56;
+}
+
+.change {
+  padding: 25px;
+  color: #3829e0;
+}
+
+.change:hover {
+  text-decoration: none;
+  color: #7f7feb;
+}
+
+.payment {
+  text-decoration: none;
+  display: block;
+  background-color: #3829e0;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 20px 20px rgba(4, 0, 255, 0.2);
+  margin: 30px 0;
+}
+
+.payment:hover {
+  background-color: #7f7feb;
+}
+
+.cancel {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+}
+
+.cancel:hover {
+  color: #1f2f56;
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    font-size: 0.95em;
+  }
+
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+
+  .card {
+    width: 300px;
+    background-color: #fff;
+    margin: 5% auto;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+  }
+
+  .container-1 {
+    padding: 25px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .music {
+    padding: 15px;
+  }
+
+  .change {
+    padding: 15px;
+  }
+
+  .payment {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(4, 0, 255, 0.2);
+    margin: 15px 0;
+  }
